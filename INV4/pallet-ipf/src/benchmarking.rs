@@ -2,7 +2,7 @@
 #![cfg(feature = "runtime-benchmarks")]
 
 use super::*;
-use frame_benchmarking::{account, benchmarks, impl_benchmark_test_suite, whitelisted_caller};
+use frame_benchmarking::{account, benchmarks, impl_benchmark_test_suite, vec, whitelisted_caller};
 use frame_system::{Config, Pallet, RawOrigin};
 use sp_core::H256;
 use sp_runtime::traits::StaticLookup;
